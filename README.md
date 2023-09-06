@@ -11,9 +11,17 @@ The data processing comprised of reducing the data into two columns: the review 
 
 **Data source:**
 
-Reviews across various categories: https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews </br>
-Grocery and product-specific datasets: https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?select=amazon_reviews_us_Grocery_v1_00.tsv </br>
+Reviews across various categories: https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews (look for the train.csv file)</br>
+Grocery and product-specific datasets: https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?select=amazon_reviews_us_Grocery_v1_00.tsv (look for the amazon_reviews_us_Grocery_v1_00.tsv file)</br>
 
+**Instructions for downloading the notebooks and making Datasets available for upload into the Jupyter files** </br>
+1. From the 'code' menu on this repository page, select 'Download ZIP'. Upon unzipping the downloaded folder, there will be three .py files along with a readme file.</br>
+2. Within the unzipped folder, create a new folder and name it "Data".</br>
+3. Download both files listed in the Data Source section. These are the datasets leveraged for training the models.</br>
+4. Move both files to the 'Data' folder created in step 2.</br>
+5. Rename the 'amazon_reviews_us_Grocery_v1_00.tsv' file to 'amazon_grocery.tsv'.</br>
+
+All three of the notebooks will be ready to run after completing these steps.</br>
 
 **Project Objective:** Key usecases to the Sentiment Analysis conducted in this project through NLP Text Classification are as follows:
 
