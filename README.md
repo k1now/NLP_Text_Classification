@@ -9,10 +9,10 @@
 
 The data processing comprised of reducing the data into two columns: the review and the sentiment. The sentiment was derived from the start ratings associated with each review, where 4 or 5 stars were considered 'positive', 1 and 2 stars were considered negative, and 3 star was considered neutral and ommitted from the analysis.
 
-Data source:
+**Data source:**
 
-Reviews across various categories: https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews
-Grocery and product-specific datasets: https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?select=amazon_reviews_us_Grocery_v1_00.tsv
+Reviews across various categories: https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews </br>
+Grocery and product-specific datasets: https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?select=amazon_reviews_us_Grocery_v1_00.tsv </br>
 
 
 **Project Objective:** Key usecases to the Sentiment Analysis conducted in this project through NLP Text Classification are as follows:
@@ -48,7 +48,7 @@ Lastly, a key use case for this model is the feedback loop described previously.
 
 
 
-Contact and Further Information
-Kayvan Nowrouzi
-Email: kayvan.nowrouzi@gmail.com
-LinkedIn: linkedin.com/in/kayvannowrouzi
+**Contact and Further Information** ** </br>
+Kayvan Nowrouzi </br>
+Email: kayvan.nowrouzi@gmail.com </br>
+LinkedIn: linkedin.com/in/kayvannowrouzi </br>
