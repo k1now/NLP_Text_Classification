@@ -48,7 +48,7 @@ Lastly, a key use case for this model is the feedback loop described previously.
 
 
 
-**Contact and Further Information** ** </br>
+**Contact and Further Information** </br>
 Kayvan Nowrouzi </br>
 Email: kayvan.nowrouzi@gmail.com </br>
 LinkedIn: linkedin.com/in/kayvannowrouzi </br>
