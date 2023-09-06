@@ -35,7 +35,22 @@ All three of the notebooks will be ready to run after completing these steps.</b
 **Data Preprocessing and Feature Extraction Techniques** To preprocess the data, we leveraged negation handling, lowercasing, removing punctuation, removing stop words, tokenization and stemming techniques. In addition, we iterated over both Bag-of-Words and TF-IDF feature extraction techniques to find the model that yields highest scores.
 
 **Model Evaluation**
-For each of the three datasets, each of the six models were evaluated with different hyper-parameters through gird search and evaluated for accuracy, precision and recall.
+For each of the three datasets, each of the six models were evaluated with different hyper-parameters through gird search and evaluated for accuracy, precision and recall. </br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Image 1:** Comparing the Accuracy, Precision and Recall Scores for Models trained on reviews across various categories</br>
+
+![plot_one](https://github.com/k1now/NLP_Text_Classification/assets/130093844/b8304534-8272-4d49-b4ee-4459f9e85b79)
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Image 2:** Comparing the Accuracy, Precision and Recall Scores for Models trained on reviews across Grocery only categories</br>
+
+![plottwo](https://github.com/k1now/NLP_Text_Classification/assets/130093844/494b9ee8-b9d8-4352-bf18-33104f2a5067)
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Image 3:** Comparing the Accuracy, Precision and Recall Scores for Models trained on reviews of a specific product</br>
+
+![plotthree](https://github.com/k1now/NLP_Text_Classification/assets/130093844/02e22e8c-75ae-402c-862d-e366263c7660)
+
 
 **Conclusions:**
 Comparing the results of the three sections, with three different granularity levels in the dataset fitted to the models, we arrive at the following conclusions:
