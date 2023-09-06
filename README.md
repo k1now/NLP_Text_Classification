@@ -37,17 +37,17 @@ All three of the notebooks will be ready to run after completing these steps.</b
 **Model Evaluation**
 For each of the three datasets, each of the six models were evaluated with different hyper-parameters through gird search and evaluated for accuracy, precision and recall. </br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Image 1:** Comparing the Accuracy, Precision and Recall Scores for Models trained on reviews across various categories</br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Image 1:** Comparing the Accuracy, Precision and Recall Scores for Models fitted on reviews across various categories</br>
 
 ![plot_one](https://github.com/k1now/NLP_Text_Classification/assets/130093844/b8304534-8272-4d49-b4ee-4459f9e85b79)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Image 2:** Comparing the Accuracy, Precision and Recall Scores for Models trained on reviews across Grocery only categories</br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Image 2:** Comparing the Accuracy, Precision and Recall Scores for Models fitted on reviews across Grocery only categories</br>
 
 ![plottwo](https://github.com/k1now/NLP_Text_Classification/assets/130093844/494b9ee8-b9d8-4352-bf18-33104f2a5067)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Image 3:** Comparing the Accuracy, Precision and Recall Scores for Models trained on reviews of a specific product</br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Image 3:** Comparing the Accuracy, Precision and Recall Scores for Models fitted on reviews of a specific product</br>
 
 ![plotthree](https://github.com/k1now/NLP_Text_Classification/assets/130093844/02e22e8c-75ae-402c-862d-e366263c7660)
 
@@ -60,6 +60,25 @@ Comparing the results of the three sections, with three different granularity le
 2. The performance score of the models improved when the data became more granular. For the first dataset, which had reviews across various categories, the Logistic Regression model achieved an accuracy of 87%. The score improved to 93% for the Grocery reviews and to 97% for the product-specific reviews. This reflects the significance of leveraging the appropriate training data when the models are used to classify sentiments at scale.
 
 3. Features (keywords) associated with positive and negative sentiments became more specific as the training data became more granular. The keywords corresponding to the initial model trained on various product category reviews were more generic and can serve as a strategic direction for understanding what makes a customer happy or unhappy in e-commerce. The second dataset, focused on Grocery reviews, had specific keywords related to taste. The third dataset, which was product-specific, provided specific insights about the positives and negatives of the product itself.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Image 4:** Top Features (or keywords) associated with Positive and Negative Sentiments for Models fitted on reviews across various categories</br>
+
+![image_four](https://github.com/k1now/NLP_Text_Classification/assets/130093844/98f8775a-5dbf-4362-82bb-32ede44bcd07)
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Image 5:** Top Features (or keywords) associated with Positive and Negative Sentiments for Models fitted on reviews across Grocery only categories</br>
+
+![image_five](https://github.com/k1now/NLP_Text_Classification/assets/130093844/a318cdd3-bda6-40f4-9530-72030c217feb)
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Image 6:** Top Features (or keywords) associated with Positive and Negative Sentiments for Models fitted on reviews corresponding to a specific Product</br>
+
+![image_six](https://github.com/k1now/NLP_Text_Classification/assets/130093844/8869e848-acbc-4815-a0c0-9610be492b88)
+
+
+
 
 **Recommendations**
 While the model works with reasonable accuracy, precision, and recall scores, the performance will certainly improve with a better volume of training data. For this project, we had millions of reviews at our disposal, yet we had to select a 25k sample given the capacity of the personal computers at hand.
