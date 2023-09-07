@@ -61,6 +61,8 @@ Comparing the results of the three sections, with three different granularity le
 
 3. Features (keywords) associated with positive and negative sentiments became more specific as the training data became more granular. The keywords corresponding to the initial model trained on various product category reviews were more generic and can serve as a strategic direction for understanding what makes a customer happy or unhappy in e-commerce. The second dataset, focused on Grocery reviews, had specific keywords related to taste. The third dataset, which was product-specific, provided specific insights about the positives and negatives of the product itself.
 
+**Note:** Due to the Lemmatization Technics applied in the Text Pre-Processing steps, the keywords outlined in the plots below are reduced to their roots. Lemmatization is an NLP technique that reduces words to their base or dictionary form (lemma). It helps unify words with similar meanings and variations by removing inflections, making it useful for text analysis tasks where word variations need to be treated as a single term for better accuracy.
+
 &nbsp;&nbsp;&nbsp;&nbsp;**Image 4:** Top Features (or keywords) associated with Positive and Negative Sentiments for Models fitted on reviews across various categories</br>
 
 ![image_four](https://github.com/k1now/NLP_Text_Classification/assets/130093844/98f8775a-5dbf-4362-82bb-32ede44bcd07)
