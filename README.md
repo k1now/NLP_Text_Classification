@@ -81,9 +81,9 @@ Comparing the results of the three sections, with three different granularity le
 
 
 **Recommendations**
-While the model works with reasonable accuracy, precision, and recall scores, the performance will certainly improve with a better volume of training data. For this project, we had millions of reviews at our disposal, yet we had to select a 25k sample given the capacity of the personal computers at hand.
+While the model works with reasonable accuracy, precision, and recall scores, the performance will certainly improve with a better volume of training data. For this project, we had millions of reviews at our disposal, yet we had to select a 25k sample given the computation capacity of the PC at hand.
 
-As described previously, the model is a powerful tool for categorizing new reviews as positive or negative sentiment. Specifically, this model can be used for analyzing customer reviews crawled from competitor sites that have no star rating for a given review.
+As described previously, the model is a powerful tool for categorizing new reviews as positive or negative sentiment. Specifically, this model can be used for analyzing customer reviews crawled from competitor sites that have no star rating for a given review and prepare benchmark reports.
 
 Lastly, a key use case for this model is the feedback loop described previously. This tool makes it scalable for sellers selling on e-commerce websites to gain insight into what makes customers happy or unhappy about specific products. The positives can be echoed in marketing campaigns, while the negatives are specific areas for product improvement.
 
