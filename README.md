@@ -5,7 +5,7 @@
 
 **Project Overview:** The objective of this project is to utilize Natural Language Processing (NLP) text classification techniques to analyze customer review sentiments on Amazon products. The primary goal is to develop a model for classifying reviews as either positive or negative and identifying the features and key words that are most associated with each of the sentiments. Six different machine learning models, including Logistic Regression, Decision Tree, Naive Bayes, Support Vector Machines (SVM), and Random Forest and AdaBoost Ensemble Models were evaluated as part of this project to identify the top performer. In conclusion, Logistic Regression performed best, as measured by accuracy, precision and recall scores, on three different datasets.
 
-**Dataset:** We fitted the models on three different datasets of customers reviews: 1) Mix of reviews across variaous product categories, 2) Grocery product category reviews, 3) Reviews associated with a specific product. We compared the model performance, and more importantly, the insight we got into features (key words) associated with a positive or negative review for each dataset.
+**Dataset:** We fitted the models on three different datasets of customer reviews: 1) Mix of reviews across variaous product categories, 2) Grocery product category reviews, 3) Reviews associated with a specific product. We compared the model performance, and more importantly, the insight we got into features (key words) associated with a positive or negative review for each dataset.
 
 The data processing comprised of reducing the data into two columns: the review and the sentiment. The sentiment was derived from the star ratings associated with each review, where 4 or 5 stars were considered 'positive', 1 and 2 stars were considered negative, and 3 star was considered neutral and ommitted from the analysis.
 
@@ -29,7 +29,7 @@ All three of the notebooks will be ready to run after completing these steps.</b
 
 2. <u>Feature Importance Analysis:</u> The model coefficients can provide various layers of insight into the keywords or phrases that are strongly associated with positive or negative sentiment. The generic dataset, which entailed customer reviews across various product categories, provides strategic insight into the characteristics of a happy or unhappy e-commerce customer. The product-specific review dataset provides insight into specific reasons customers are happy or unhappy with a given product. 
 
-3. <u>Sentiment-based Feedback Loop:</u> Once the features of positive and negative sentiment are identified, they can be leveraged as a feedback loop into business growth. Positive reviews can be 
+3. <u>Sentiment-based Feedback Loop:</u> Once the features of positive and negative sentiment are identified, they can be leveraged as a feedback loop into business growth. Features associated with positive reviews can be echoed in marketing campaigns or be leveraged as guidelines for future product developments. Features associated with negative reviews can be leveraged for product enhancement and corrective measures. 
 
 
 **Data Preprocessing and Feature Extraction Techniques** To preprocess the data, we leveraged negation handling, lowercasing, removing punctuation, removing stop words, tokenization and stemming techniques. In addition, we iterated over both Bag-of-Words and TF-IDF feature extraction techniques to find the model that yields highest scores.
