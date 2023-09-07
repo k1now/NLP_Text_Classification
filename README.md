@@ -35,7 +35,7 @@ All three of the notebooks will be ready to run after completing these steps.</b
 **Data Preprocessing and Feature Extraction Techniques** To preprocess the data, we leveraged negation handling, lowercasing, removing punctuation, removing stop words, tokenization and stemming techniques. In addition, we iterated over both Bag-of-Words and TF-IDF feature extraction techniques to find the model that yields highest scores.
 
 **Model Evaluation**
-For each of the three datasets, each of the six models were evaluated with different hyper-parameters through gird search and evaluated for accuracy, precision and recall. </br>
+For each of the three datasets, each of the six models were evaluated with different hyper-parameters through grid search and evaluated for accuracy, precision and recall. </br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;**Image 1:** Comparing the Accuracy, Precision and Recall Scores for Models fitted on reviews across various categories</br>
 
